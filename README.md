@@ -47,7 +47,6 @@ This tool is intended for **security researchers**, **penetration testers**, and
 
 ## Installation
 **Clone the repository:**
-
 ``` git clone https://github.com/sevbandonmez/harbor-stalker.git && cd harbor-stalker ```
 **Install dependencies:**
 ``` pip install -r requirements.txt ```
@@ -87,11 +86,9 @@ https://harbor2.example.com
 ```
 
 **Verify vulnerabilities and enable verbose logging:**
-
 ```python3 harbor_scanner.py -u https://harbor.example.com --verify -v```
 
 **Customize timeout and workers:**
-
 ```python3 harbor_scanner.py -f targets.txt --timeout 15 --workers 10```
 
 ### Output
